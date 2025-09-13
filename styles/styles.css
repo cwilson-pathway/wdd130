@@ -16,9 +16,12 @@ aside {
     color: rgb(69, 31, 94);
 }
 
-img {
+aside img {
     width: 200px;
     height: auto;
+    border: solid black 1px;
+    padding: 1px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.527);
 }
 
 nav a {
