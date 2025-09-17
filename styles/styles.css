@@ -1,5 +1,9 @@
+:root {
+    --nav-color: rgb(0 0 139)
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--nav-color);
     padding: 10px
 }
 
@@ -36,7 +40,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--nav-color);
 }
 
 p {
@@ -48,3 +52,5 @@ footer {
     border-top: dotted 2px;
     text-align: center;
 }
+
+/* This is a comment */
