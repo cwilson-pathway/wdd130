@@ -1,0 +1,72 @@
+:root {
+    --bg-color: #a8d7d9;
+    --primary-color: #403768;
+    --body-font: verdana;
+    --accent1-color: #356e69;
+    --heading-font: 'microsoft yahei ui'
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;  
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    background-color: #6fcfc7bd;
+}
+
+article {
+    position: absolute;
+    top: 50px;
+    max-width: fit-content;
+    height: 92px;
+}
+
+.hero article img {
+    float: right;
+    max-width: 15%;
+    margin-left: 10px;
+    border: solid black 1px;
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 5px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
