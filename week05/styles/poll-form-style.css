@@ -1,0 +1,99 @@
+:root {
+    --header-font: Georgia;
+    --header-text-color: darkblue;
+    --form-color: lightgray;
+    --copyright-color: gray;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+form {
+    padding: 30px 50px;
+    border: solid black 1px;
+    background-color: var(--form-color);
+    text-align: center;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3rem 2rem;
+    padding-bottom: 10px;
+    align-items: flex-end;
+}
+
+.contact label {
+    width: 100%;
+    /* align-self: flex-end; */
+    text-align: right;
+    grid-column: 1;
+}
+
+.contact input {
+    width: 90%;
+    height: 1.2rem;
+    grid-column: 2/span 2;
+}
+
+.questions {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 3rem 2rem 5.5rem;
+    align-items: flex-end;
+}
+
+.questions label {
+    width: 100%;
+    text-align: right;
+}
+
+.questions select {
+    height: 2rem;
+}
+
+.questions .feedback {
+    grid-column: span 2;
+    display: grid;
+    grid-template-rows: 1.5rem 4rem;
+    align-items: flex-end;
+}
+
+.questions .feedback label {
+    text-align: center;
+}
+
+.questions .feedback textarea {
+    height: 3rem;
+}
+
+header, body, footer {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    position: relative;
+    margin-top: 20px
+}
+
+legend {
+    position: absolute;
+    top: -18px;
+    left: 13px;
+    background-color: var(--form-color);
+    padding: 3px;
+    color: var(--header-text-color);
+}
+
+button {
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: var(--header-font);
+    color: var(--header-text-color);
+    text-align: center;
+}
