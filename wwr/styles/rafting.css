@@ -64,7 +64,7 @@ header a {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;  
     top: 12%;
     width: 100%;
@@ -156,7 +156,7 @@ nav, p, section, article {
 
 /* Contact Page Exclusive */
 
-.contact p, h2 {
+.contact p, h1 {
     text-align: center;
 }
 
