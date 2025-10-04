@@ -206,6 +206,7 @@ nav, p, section, article {
 .map-and-form button {
     grid-column: span 2;
     padding: 3px;
+    background-color: #d8d8d8;
 }
 
 .serve {
